@@ -17,11 +17,13 @@ We encourage you to participate, contribute, and share your insights. Whether it
 Thank you for joining us on this exciting journey into the world of Generative AI. Let’s learn, create, and innovate together!
 
 
-* The objective of this workshop is to practice realistic AI orchestration scenarios and to learn how to build intelligent apps. At the end of the workshop you will:
- * Know how to use prompt engineering techniques for effective generative AI responses on OpenAI
- * Understand the implications of the usage of tokens and embeddings when interacting with an LLM  ve experience in leveraging AI orchestrators like Langchain/ Semantic Kernel with Azure OpenAI
- * Have evaluated different vector stores like Qdrant or Azure AI Search to enhance LLM responses with your data and context
- * Know how to turn a business scenario with data, context and user input into an intelligent application on Azure
-https://github.com/Azure/intro-to-intelligent-apps/tree/main
-* Azure AI services provide a comprehensive suite of prebuilt models and demos designed to address a wide range of use cases. These models are readily accessible and allow you to implement AI-powered solutions seamlessly. We have curated and catalogued prebuilt demos available across Azure AI services. We hope this helps you infuse AI seamlessly into your products and services. https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/explore-azure-ai-services-curated-list-of-prebuilt-models-and/ba-p/4230788
+* https://github.com/Azure/intro-to-intelligent-apps/tree/main
+The objective of this workshop is to practice realistic AI orchestration scenarios and to learn how to build intelligent apps. At the end of the workshop you will:
+  * Know how to use prompt engineering techniques for effective generative AI responses on OpenAI
+  * Understand the implications of the usage of tokens and embeddings when interacting with an LLM  ve experience in leveraging AI orchestrators like Langchain/ Semantic Kernel with Azure OpenAI
+  * Have evaluated different vector stores like Qdrant or Azure AI Search to enhance LLM responses with your data and context
+  * Know how to turn a business scenario with data, context and user input into an intelligent application on Azure
+
+* https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/explore-azure-ai-services-curated-list-of-prebuilt-models-and/ba-p/4230788
+Azure AI services provide a comprehensive suite of prebuilt models and demos designed to address a wide range of use cases. These models are readily accessible and allow you to implement AI-powered solutions seamlessly. We have curated and catalogued prebuilt demos available across Azure AI services. We hope this helps you infuse AI seamlessly into your products and services. 
 * Learning path around Generative AI: [Develop your own custom copilots with Azure AI Studio](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/?wt.mc_id=ignite23_breakout_collection_azuremktg_AI)
