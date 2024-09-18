@@ -25,5 +25,7 @@ The objective of this workshop is to practice realistic AI orchestration scenari
   * Know how to turn a business scenario with data, context and user input into an intelligent application on Azure
 
 * https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/explore-azure-ai-services-curated-list-of-prebuilt-models-and/ba-p/4230788
-Azure AI services provide a comprehensive suite of prebuilt models and demos designed to address a wide range of use cases. These models are readily accessible and allow you to implement AI-powered solutions seamlessly. We have curated and catalogued prebuilt demos available across Azure AI services. We hope this helps you infuse AI seamlessly into your products and services. 
+Azure AI services provide a comprehensive suite of prebuilt models and demos designed to address a wide range of use cases. These models are readily accessible and allow you to implement AI-powered solutions seamlessly. We have curated and catalogued prebuilt demos available across Azure AI services. We hope this helps you infuse AI seamlessly into your products and services.
+* https://github.com/Azure-Samples/azure-sql-db-chatbot In this repo you will find a step-by-step guide on how to use Azure SQL Database to do Retrieval Augmented Generation (RAG) using the data you have in Azure SQL and integrating with OpenAI, directly from the Azure SQL database itself. You'll be able to ask queries in natural language and get answers from the OpenAI GPT model, using the data you have in Azure SQL Database.
+
 * Learning path around Generative AI: [Develop your own custom copilots with Azure AI Studio](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/?wt.mc_id=ignite23_breakout_collection_azuremktg_AI)
