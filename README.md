@@ -29,3 +29,74 @@ Azure AI services provide a comprehensive suite of prebuilt models and demos des
 * https://github.com/Azure-Samples/azure-sql-db-chatbot In this repo you will find a step-by-step guide on how to use Azure SQL Database to do Retrieval Augmented Generation (RAG) using the data you have in Azure SQL and integrating with OpenAI, directly from the Azure SQL database itself. You'll be able to ask queries in natural language and get answers from the OpenAI GPT model, using the data you have in Azure SQL Database.
 
 * Learning path around Generative AI: [Develop your own custom copilots with Azure AI Studio](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/?wt.mc_id=ignite23_breakout_collection_azuremktg_AI)
+
+## Pre-requisites
+
+### Resource Providers
+
+Before starting the hands's-on-Labs or workshop, register the following Azure providers on subscription.
+
+In Azure Cloud Shell copy-paste the following code snippet:
+
+``` bash
+
+for service in \
+Microsoft.AAD \
+Microsoft.Advisor \
+Microsoft.AlertsManagement \
+Microsoft.ApiManagement \
+Microsoft.App \
+Microsoft.AppConfiguration \
+Microsoft.AppPlatform \
+Microsoft.Automation \
+Microsoft.AzureActiveDirectory \
+Microsoft.BotService \
+Microsoft.Cache \
+Microsoft.Cdn \
+Microsoft.CertificateRegistration \
+Microsoft.Communication \
+Microsoft.Compute \
+Microsoft.ContainerInstance \
+Microsoft.ContainerRegistry \
+Microsoft.ContainerService \
+Microsoft.CognitiveServices \
+Microsoft.CostManagementExports \
+Microsoft.CustomProviders \
+Microsoft.DataCatalog \
+Microsoft.DBforMySQL \
+Microsoft.DBforPostgreSQL \
+Microsoft.DevCenter \
+Microsoft.DevOpsInfrastructure \
+Microsoft.DomainRegistration \
+Microsoft.DocumentDB \
+Microsoft.EventGrid \
+Microsoft.EventHub \
+Microsoft.Insights \
+Microsoft.KeyVault \
+Microsoft.Logic \
+Microsoft.MachineLearning \
+Microsoft.MachineLearningServices \
+Microsoft.Maps \
+Microsoft.ManagedIdentity \
+Microsoft.ManagedNetwork \
+Microsoft.Management \
+Microsoft.Network \
+Microsoft.NotificationHubs \
+Microsoft.OperationalInsights \
+Microsoft.OperationsManagement \
+Microsoft.PowerPlatform \
+Microsoft.Relay \
+Microsoft.Scheduler \
+Microsoft.Search \
+Microsoft.Security \
+Microsoft.ServiceBus \
+Microsoft.Sql \
+Microsoft.Storage \
+Microsoft.VirtualMachineImages \
+Microsoft.VSOnline \
+microsoft.visualstudio \
+Microsoft.Web
+do
+    az provider register --namespace $service
+done
+```
