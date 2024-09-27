@@ -30,6 +30,7 @@ Azure AI services provide a comprehensive suite of prebuilt models and demos des
 
 * Learning path around Generative AI: [Develop your own custom copilots with Azure AI Studio](https://learn.microsoft.com/en-us/training/paths/create-custom-copilots-ai-studio/?wt.mc_id=ignite23_breakout_collection_azuremktg_AI)
 
+* Learning generative Ai for begiiners : [Generative Ai for beginners](https://github.com/microsoft/generative-ai-for-beginners)
 ## Pre-requisites
 
 ### Resource Providers
